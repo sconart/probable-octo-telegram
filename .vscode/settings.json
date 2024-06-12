@@ -33,7 +33,7 @@
     "mypy-type-checker.args": [
         "no-untyped-def"
     ],
-    "python.analysis.exclude": [
+    "python.analysis.ignore": [
         "reportUnknownParameterType"
     ]
 }
