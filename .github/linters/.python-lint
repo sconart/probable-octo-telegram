@@ -1,14 +1,3 @@
-[MASTER]
-load-plugins=pylint_pytest,
-  pylint.extensions.docstyle,
-  pylint.extensions.docparams,
-jobs=0
-suggestion-mode=yes
-accept-no-param-doc=no
-default-docstring-type=google
-
-ignored-modules=invoke
-
 [MESSAGES CONTROL]
 disable:too-few-public-methods,
   missing-return-doc,
