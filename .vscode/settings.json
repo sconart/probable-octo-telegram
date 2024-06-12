@@ -22,6 +22,10 @@
         "--ignore=D100,D101,D102,D103,D107,E203,W503,D400,D205,D415"
     ],
     "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportOptionalMemberAccess": "none",
+        "reportAttributeAccessIssue": "none"
+    },
     "editor.rulers": [
         79
     ],
