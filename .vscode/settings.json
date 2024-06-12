@@ -29,5 +29,11 @@
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "mypy-type-checker.args": [
+        "no-untyped-def"
+    ],
+    "python.analysis.exclude": [
+        "reportUnknownParameterType"
+    ]
 }
