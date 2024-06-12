@@ -1,4 +1,5 @@
 [MASTER]
+load-plugins=pylint_pytest
 jobs=0
 suggestion-mode=yes
 
