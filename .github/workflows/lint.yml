@@ -24,15 +24,6 @@ jobs:
           # list of files that changed across commits
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
-      - name: Install pylint and plugins
-        run: |
-          pip install pylint pylint_pytest
-
       - name: Super-linter
         uses: super-linter/super-linter@v6.6.0  # x-release-please-version
         env:
