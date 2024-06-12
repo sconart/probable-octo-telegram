@@ -57,7 +57,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip wheel setuptools
-          pip install --requirement requirements.txt
+          pip install isort pytest pylint pylint-pytest
       - name: Run tests
         run: |
           ./tests.sh
