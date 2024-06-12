@@ -4,8 +4,7 @@ jobs=0
 suggestion-mode=yes
 
 # Enable the plugins
-load-plugins=pylint_pytest,
-  pylint.extensions.docstyle,
+load-plugins=pylint.extensions.docstyle,
   pylint.extensions.docparams,
 
 accept-no-param-doc=no
