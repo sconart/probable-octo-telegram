@@ -1,9 +1,11 @@
 [MASTER]
 jobs=0
 suggestion-mode=yes
-# load-plugins=pylint_pytest,
-#   pylint.extensions.docstyle,
-#   pylint.extensions.docparams,
+
+# Enable the plugins
+load-plugins=pylint_pytest,
+  pylint.extensions.docstyle,
+  pylint.extensions.docparams,
 
 accept-no-param-doc=no
 default-docstring-type=google
