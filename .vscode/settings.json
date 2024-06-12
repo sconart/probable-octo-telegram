@@ -34,6 +34,7 @@
         "no-untyped-def"
     ],
     "python.analysis.ignore": [
-        "reportUnknownParameterType"
+        "reportUnknownParameterType",
+        "reportMissingParameterType"
     ]
 }
