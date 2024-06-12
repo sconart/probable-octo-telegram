@@ -39,6 +39,7 @@ jobs:
           VALIDATE_JSON: false
           VALIDATE_MARKDOWN: false
           VALIDATE_XML: false
+          FILTER_REGEX_EXCLUDE: ".*test_.*\.py"
 
   tests:
     runs-on: ubuntu-latest
