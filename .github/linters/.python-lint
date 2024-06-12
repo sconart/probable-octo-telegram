@@ -14,6 +14,7 @@ ignored-modules=invoke
 
 [MESSAGES CONTROL]
 disable:too-few-public-methods,
+  bad-plugin-value,
   missing-return-doc,
   missing-return-type-doc,
   missing-param-doc,
